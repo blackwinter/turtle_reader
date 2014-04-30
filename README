@@ -2,7 +2,7 @@
 
 == VERSION
 
-This documentation refers to turtle_reader version 0.0.0
+This documentation refers to turtle_reader version 0.0.1
 
 
 == DESCRIPTION
@@ -15,7 +15,7 @@ A convenience wrapper for reading RDF Turtle data.
 Documentation:: https://blackwinter.github.io/turtle_reader/
 Source code::   https://github.com/blackwinter/turtle_reader
 RubyGem::       https://rubygems.org/gems/turtle_reader
-Travis CI::     https//travis-ci.org/blackwiter/turtle_reader
+Travis CI::     https//travis-ci.org/blackwinter/turtle_reader
 
 
 == AUTHORS
