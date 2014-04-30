@@ -1,0 +1,996 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix gnd: <http://d-nb.info/standards/elementset/gnd#> .
+@prefix rda: <http://rdvocab.info/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix lib: <http://purl.org/library/> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://d-nb.info/gnd/1-2> gnd:gndIdentifier "1-2" ;
+	gnd:oldAuthorityNumber "(DE-588b)1-2" ;
+	gnd:variantNameForTheConferenceOrEvent "Conferentie van Niet-Kernwapenstaten" , "Conference on Non-Nuclear Weapon States" ;
+	gnd:preferredNameForTheConferenceOrEvent "Conference of Non-Nuclear Weapon States" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/2-4> gnd:gndIdentifier "2-4" ;
+	gnd:oldAuthorityNumber "(DE-588b)2-4" ;
+	gnd:preferredNameForTheConferenceOrEvent "Conferenza Nazionale della Ceramica <1963, Vicenza>" ;
+	gnd:geographicAreaCode <http://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-IT> ;
+	gnd:dateOfConferenceOrEvent "1963" ;
+	gnd:placeOfConferenceOrEvent <http://d-nb.info/gnd/4063445-0> ;
+	a gnd:ConferenceOrEvent .
+
+<http://d-nb.info/gnd/3-6> gnd:gndIdentifier "3-6" ;
+	gnd:oldAuthorityNumber "(DE-588b)3-6" ;
+	gnd:preferredNameForTheConferenceOrEvent "Conferinţă de Sudura şi Încercari de Metale" ;
+	gnd:precedingConferenceOrEvent <http://d-nb.info/gnd/1216918-3> ;
+	gnd:succeedingConferenceOrEvent <http://d-nb.info/gnd/5038504-5> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/4-8> gnd:gndIdentifier "4-8" ;
+	gnd:oldAuthorityNumber "(DE-588b)4-8" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès des Anesthésistes Réanimateurs d'Expression Française" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/5-X> gnd:gndIdentifier "5-X" ;
+	gnd:oldAuthorityNumber "(DE-588b)5-X" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès des Associations Régionales pour la Sauvegarde de l'Enfance et de l'Adolescence" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/6-1> gnd:gndIdentifier "6-1" ;
+	gnd:oldAuthorityNumber "(DE-588b)6-1" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès Belge de la Route" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/7-3> gnd:gndIdentifier "7-3" ;
+	gnd:oldAuthorityNumber "(DE-588b)7-3" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès de Calcul et de Traitement de l'Information" ;
+	gnd:succeedingConferenceOrEvent <http://d-nb.info/gnd/8-5> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/8-5> gnd:gndIdentifier "8-5" ;
+	gnd:oldAuthorityNumber "(DE-588b)8-5" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès d'Informatique et de Recherche Opérationnelle" ;
+	gnd:precedingConferenceOrEvent <http://d-nb.info/gnd/7-3> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/9-7> gnd:gndIdentifier "9-7" ;
+	gnd:oldAuthorityNumber "(DE-588b)9-7" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresul al Cooperaţiei de Consum din Republica Populara Romîna" ;
+	gnd:succeedingConferenceOrEvent <http://d-nb.info/gnd/5021949-2> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/10-3> gnd:gndIdentifier "10-3" ;
+	gnd:oldAuthorityNumber "(DE-588b)10-3" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès des Économistes de Langue Française" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/11-5> gnd:gndIdentifier "11-5" ;
+	gnd:oldAuthorityNumber "(DE-588b)11-5" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès Européen d'Équipement Pétrolier" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/12-7> gnd:gndIdentifier "12-7" ;
+	gnd:oldAuthorityNumber "(DE-588b)12-7" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès Européen de l'Ethnie Française d'Europe" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/13-9> gnd:gndIdentifier "13-9" ;
+	gnd:oldAuthorityNumber "(DE-588b)13-9" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès Européen de Médecine Sportive" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/14-0> gnd:gndIdentifier "14-0" ;
+	gnd:oldAuthorityNumber "(DE-588b)14-0" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès Européen du Symbolisme" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/15-2> gnd:gndIdentifier "15-2" ;
+	gnd:oldAuthorityNumber "(DE-588b)15-2" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès de Fonderie" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/17-6> gnd:gndIdentifier "17-6" ;
+	gnd:oldAuthorityNumber "(DE-588b)17-6" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès Français de l'Embouteillage" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/18-8> gnd:gndIdentifier "18-8" ;
+	gnd:oldAuthorityNumber "(DE-588b)18-8" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès Français de Stomatologie" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/19-X> gnd:gndIdentifier "19-X" ;
+	gnd:oldAuthorityNumber "(DE-588b)19-X" ;
+	gnd:preferredNameForTheCorporateBody "Congrès sur l'Histoire de l'Abbaye Saint-Victor de Marseille" ;
+	gnd:geographicAreaCode <http://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-FR> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/20-6> gnd:gndIdentifier "20-6" ;
+	gnd:oldAuthorityNumber "(DE-588b)20-6" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès d'Histoire Littéraire" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/21-8> gnd:gndIdentifier "21-8" ;
+	gnd:oldAuthorityNumber "(DE-588b)21-8" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès de l'Industrie du Gaz" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/22-X> gnd:gndIdentifier "22-X" ;
+	gnd:oldAuthorityNumber "(DE-588b)22-X" ;
+	gnd:variantNameForTheConferenceOrEvent "Congrès International d'Acupuncture" ;
+	gnd:preferredNameForTheConferenceOrEvent "Internationaler Kongreß für Akupunktur" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/23-1> gnd:gndIdentifier "23-1" ;
+	gnd:oldAuthorityNumber "(DE-588b)23-1" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès International d'Anthropologie Différentielle" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/24-3> gnd:gndIdentifier "24-3" ;
+	gnd:oldAuthorityNumber "(DE-588b)24-3" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès International sur les Applications du Vide et du Froid dans les Industries Alimentaires" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/25-5> gnd:gndIdentifier "25-5" ;
+	gnd:oldAuthorityNumber "(DE-588b)25-5" ;
+	gnd:variantNameForTheConferenceOrEvent "Congreso Internacional de Quimica Industrial" , "Internationaal Congres voor Industriele Chemie" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès International de Chimie Industrielle" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/27-9> gnd:gndIdentifier "27-9" ;
+	gnd:oldAuthorityNumber "(DE-588b)27-9" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès International du Film Médical" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/28-0> gnd:gndIdentifier "28-0" ;
+	gnd:oldAuthorityNumber "(DE-588b)28-0" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès International de la Fonction Biliaire" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/29-2> gnd:gndIdentifier "29-2" ;
+	gnd:oldAuthorityNumber "(DE-588b)29-2" ;
+	gnd:variantNameForTheConferenceOrEvent "Congresso Internazionale d'Igiene e Medicina Mediterranea" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès International d'Hygiène et de Médecine Méditerranéenne" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/30-9> gnd:gndIdentifier "30-9" ;
+	gnd:oldAuthorityNumber "(DE-588b)30-9" ;
+	gnd:variantNameForTheConferenceOrEvent "Congrès International d'Hygiène Scolaire et Universitaire" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès International d'Hygiène et de Médecine Scolaires" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/31-0> gnd:gndIdentifier "31-0" ;
+	gnd:oldAuthorityNumber "(DE-588b)31-0" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès International de l'Industrie Morutière dans l'Atlantique-Nord" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/32-2> gnd:gndIdentifier "32-2" ;
+	gnd:oldAuthorityNumber "(DE-588b)5045366-X" , "(DE-588b)32-2" ;
+	gnd:variantNameForTheConferenceOrEvent "Congrès International de Langue Française de Médecine Légale et Médecine Sociale" , "Congrès International de Médecine Légale et Sociale de Langue Française" , "Congrès International de Médecine Légale et de Médecine Sociale de Langue Française" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès International de Langue Française de Médecine Légale et de Médecine Sociale" ;
+	gnd:precedingConferenceOrEvent <http://d-nb.info/gnd/10028592-2> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/33-4> gnd:gndIdentifier "33-4" ;
+	gnd:oldAuthorityNumber "(DE-588b)33-4" ;
+	gnd:variantNameForTheConferenceOrEvent "Congrès International de Médecine Agricole" , "Internationaler Kongreß für Ländliche Gesundheitspflege" ;
+	gnd:preferredNameForTheConferenceOrEvent "International Congress of Agricultural Medicine" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/34-6> gnd:gndIdentifier "34-6" ;
+	gnd:oldAuthorityNumber "(DE-588b)34-6" ;
+	gnd:variantNameForTheConferenceOrEvent "Congrès international de médecine psychosomatique" ;
+	gnd:preferredNameForTheConferenceOrEvent "International Congress of Psychosomatic Medicine" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/35-8> gnd:gndIdentifier "35-8" ;
+	gnd:oldAuthorityNumber "(DE-588b)35-8" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès International de la Neutralité de la Médecine" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/36-X> gnd:gndIdentifier "36-X" ;
+	gnd:oldAuthorityNumber "(DE-588b)36-X" ;
+	gnd:variantNameForTheConferenceOrEvent "Congrès International de Phlébologie" ;
+	gnd:preferredNameForTheConferenceOrEvent "Internationaler Kongreß für Phlebologie" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/37-1> gnd:gndIdentifier "37-1" ;
+	gnd:oldAuthorityNumber "(DE-588b)37-1" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès International Les Problèmes Juridiques que Poserait l'Entrée de la Grande Bretagne dans le Marché Commun <1967, Rouen>" ;
+	gnd:geographicAreaCode <http://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-FR> ;
+	gnd:dateOfConferenceOrEvent "1967" ;
+	gnd:placeOfConferenceOrEvent <http://d-nb.info/gnd/4050751-8> ;
+	a gnd:ConferenceOrEvent .
+
+<http://d-nb.info/gnd/38-3> gnd:gndIdentifier "38-3" ;
+	gnd:oldAuthorityNumber "(DE-588b)38-3" ;
+	gnd:variantNameForTheConferenceOrEvent "Congrès International de l'UER sur la Radio et la Télévision Éducatives" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès International sur la Radio et la Télévision Éducatives" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/39-5> gnd:gndIdentifier "39-5" ;
+	gnd:oldAuthorityNumber "(DE-588b)39-5" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès International Vers la Société de Type Européen <1967, Deauville>" ;
+	gnd:geographicAreaCode <http://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-FR> ;
+	gnd:dateOfConferenceOrEvent "1967" ;
+	gnd:placeOfConferenceOrEvent <http://d-nb.info/gnd/4342427-2> ;
+	a gnd:ConferenceOrEvent .
+
+<http://d-nb.info/gnd/40-1> gnd:gndIdentifier "40-1" ;
+	gnd:oldAuthorityNumber "(DE-588b)40-1" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès International du Soufre <1967, Toulouse>" ;
+	gnd:geographicAreaCode <http://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-FR> ;
+	gnd:dateOfConferenceOrEvent "1967" ;
+	gnd:placeOfConferenceOrEvent <http://d-nb.info/gnd/4060518-8> ;
+	a gnd:ConferenceOrEvent .
+
+<http://d-nb.info/gnd/41-3> gnd:gndIdentifier "41-3" ;
+	gnd:oldAuthorityNumber "(DE-588b)41-3" ;
+	gnd:variantNameForTheConferenceOrEvent "Congresso Internazionale Stendhaliano" , "Congrès Stendhalien International" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès International Stendhalien" ;
+	gnd:precedingConferenceOrEvent <http://d-nb.info/gnd/5021857-8> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/42-5> gnd:gndIdentifier "42-5" ;
+	gnd:oldAuthorityNumber "(DE-588b)42-5" ;
+	gnd:variantNameForTheConferenceOrEvent "Congresso Internazionale di Stomatologia" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès International de Stomatologie" ;
+	gnd:precedingConferenceOrEvent <http://d-nb.info/gnd/5246417-9> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/43-7> gnd:gndIdentifier "43-7" ;
+	gnd:oldAuthorityNumber "(DE-588b)43-7" ;
+	gnd:variantNameForTheConferenceOrEvent "Convegno Internazionale sull'Impiego degli Audiovisivi per l'Istruzione e l'Addestramento Professionale in Africa" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès International sur l'Utilisation des Moyens Audio-visuels pour l'Instruction et l'Enseignement Professionnel en Afrique" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/44-9> gnd:gndIdentifier "44-9" ;
+	gnd:oldAuthorityNumber "(DE-588b)44-9" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès International de la Vulgarisation Agricole <1957, Wageningen>" ;
+	gnd:geographicAreaCode <http://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-NL> ;
+	gnd:dateOfConferenceOrEvent "1957" ;
+	gnd:placeOfConferenceOrEvent <http://d-nb.info/gnd/4118945-0> ;
+	a gnd:ConferenceOrEvent .
+
+<http://d-nb.info/gnd/45-0> gnd:gndIdentifier "45-0" ;
+	gnd:oldAuthorityNumber "(DE-588b)45-0" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès Interparlementaire du Tourisme" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/46-2> gnd:gndIdentifier "46-2" ;
+	gnd:oldAuthorityNumber "(DE-588b)46-2" ;
+	gnd:variantNameForTheConferenceOrEvent "Congrès Français d'Anesthésiologie" , "Congrès National d'Anesthésie-Réanimation" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès National d'Anesthésie Réanimation" ;
+	gnd:temporaryNameOfTheConferenceOrEvent <http://d-nb.info/gnd/240034-0> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/47-4> gnd:gndIdentifier "47-4" ;
+	gnd:oldAuthorityNumber "(DE-588b)47-4" ;
+	gnd:variantNameForTheConferenceOrEvent "Belgisch Nationaal Congres van Pneumologie en van Phtisiologie" , "Nationaal Congres van Pneumologie en van Phtisiologie" , "Congres van Pneumologie en van Phtisiologie" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès National Belge de Pneumologie et de Phtisiologie" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/48-6> gnd:gndIdentifier "48-6" ;
+	gnd:oldAuthorityNumber "(DE-588b)48-6" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès National de l'Habitat Rural" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/50-4> gnd:gndIdentifier "50-4" ;
+	gnd:oldAuthorityNumber "(DE-588b)50-4" ;
+	gnd:variantNameForTheConferenceOrEvent "Congrès National d'Higiene et de la Sécurité du Travail" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès National d'Hygiène et de la Sécurité du Travail" ;
+	gnd:succeedingConferenceOrEvent <http://d-nb.info/gnd/5199213-9> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/51-6> gnd:gndIdentifier "51-6" ;
+	gnd:oldAuthorityNumber "(DE-588b)51-6" ;
+	gnd:variantNameForTheConferenceOrEvent "Congrès de Littérature Comparée" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès National de Littérature Comparée" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/52-8> gnd:gndIdentifier "52-8" ;
+	gnd:oldAuthorityNumber "(DE-588b)52-8" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès National d'Orientation Scolaire Professionnelle" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/53-X> gnd:gndIdentifier "53-X" ;
+	gnd:oldAuthorityNumber "(DE-588b)53-X" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès National pour la Prévention de la Pollution Atmosphérique" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/56-5> gnd:gndIdentifier "56-5" ;
+	gnd:oldAuthorityNumber "(DE-588b)56-5" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès National de Spéléologie <Fédération Française de Spéléologie>" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/57-7> gnd:gndIdentifier "57-7" ;
+	gnd:oldAuthorityNumber "(DE-588b)57-7" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès National de Transfusion Sanguine" ;
+	gnd:precedingConferenceOrEvent <http://d-nb.info/gnd/5175548-8> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/58-9> gnd:gndIdentifier "58-9" ;
+	gnd:oldAuthorityNumber "(DE-588b)58-9" ;
+	gnd:variantNameForTheConferenceOrEvent "Congrès National des Notaires de France" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès des Notaires de France" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/59-0> gnd:gndIdentifier "59-0" ;
+	gnd:oldAuthorityNumber "(DE-588b)59-0" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès Préhistorique de France" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/60-7> gnd:gndIdentifier "60-7" ;
+	gnd:oldAuthorityNumber "(DE-588b)60-7" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès sur les Problèmes Ballistiques <1960, Saint-Louis>" ;
+	gnd:geographicAreaCode <http://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-FR> ;
+	gnd:dateOfConferenceOrEvent "1960" ;
+	gnd:placeOfConferenceOrEvent <http://d-nb.info/gnd/17258-3> ;
+	a gnd:ConferenceOrEvent .
+
+<http://d-nb.info/gnd/61-9> gnd:gndIdentifier "61-9" ;
+	gnd:oldAuthorityNumber "(DE-588b)61-9" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès de la Protection des Cultures Tropicales <1965, Marseille>" ;
+	gnd:geographicAreaCode <http://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-FR> ;
+	gnd:dateOfConferenceOrEvent "1965" ;
+	gnd:placeOfConferenceOrEvent <http://d-nb.info/gnd/4037694-1> ;
+	a gnd:ConferenceOrEvent .
+
+<http://d-nb.info/gnd/62-0> gnd:gndIdentifier "62-0" ;
+	gnd:oldAuthorityNumber "(DE-588b)62-0" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès des Psychanalystes de Langues Romanes" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/63-2> gnd:gndIdentifier "63-2" ;
+	gnd:oldAuthorityNumber "(DE-588b)63-2" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès des Romanistes Scandinaves" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/64-4> gnd:gndIdentifier "64-4" ;
+	gnd:oldAuthorityNumber "(DE-588b)64-4" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès Scientifique Fêtes et Cérémonies Liturgiques en l'Honneur des Saints Abbés Odon et Odilon <1949, Cluny>" ;
+	gnd:geographicAreaCode <http://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-FR> ;
+	gnd:dateOfConferenceOrEvent "1949" ;
+	gnd:placeOfConferenceOrEvent <http://d-nb.info/gnd/4010317-1> ;
+	a gnd:ConferenceOrEvent .
+
+<http://d-nb.info/gnd/65-6> gnd:gndIdentifier "65-6" ;
+	gnd:oldAuthorityNumber "(DE-588b)65-6" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès des Sociétés de Philosophie de Langue Française" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/66-8> gnd:gndIdentifier "66-8" ;
+	gnd:oldAuthorityNumber "(DE-588b)66-8" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso de Academias de la Lengua Española" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/67-X> gnd:gndIdentifier "67-X" ;
+	gnd:oldAuthorityNumber "(DE-588b)67-X" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso Arqueológico del Sudeste" ;
+	gnd:temporaryNameOfTheConferenceOrEvent <http://d-nb.info/gnd/65672-0> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/68-1> gnd:gndIdentifier "68-1" ;
+	gnd:oldAuthorityNumber "(DE-588b)68-1" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso Bolivariano des Archiveros" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/69-3> gnd:gndIdentifier "69-3" ;
+	gnd:oldAuthorityNumber "(DE-588b)69-3" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso de Economía Nacional" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/70-X> gnd:gndIdentifier "70-X" ;
+	gnd:oldAuthorityNumber "(DE-588b)70-X" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso Español de Estudios Clásicos" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/71-1> gnd:gndIdentifier "71-1" ;
+	gnd:oldAuthorityNumber "(DE-588b)71-1" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso Español de Historia de la Medicina" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/72-3> gnd:gndIdentifier "72-3" ;
+	gnd:oldAuthorityNumber "(DE-588b)72-3" ;
+	gnd:variantNameForTheConferenceOrEvent "Congresso di Studi Arabi e Islamici" , "Congreso de Estudios Arabes e Islámicos" , "Kongreß für Arabistik und Islamwissenschaft" , "Congrès d'Etudes Arabes et Islamiques" , "Congresso de Estudos Arabes e Islâmicos" , "Congrès International d'Arabisants et d'Islamisants" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congress of Arabic and Islamic Studies" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/73-5> gnd:gndIdentifier "73-5" ;
+	gnd:oldAuthorityNumber "(DE-588b)73-5" ;
+	gnd:variantNameForTheConferenceOrEvent "Congresso Hispano-Luso-Americano-Filipino de Municípios" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso Hispano-Luso-Americano-Filipino de Municípios" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/74-7> gnd:gndIdentifier "74-7" ;
+	gnd:oldAuthorityNumber "(DE-588b)74-7" ;
+	gnd:variantNameForTheConferenceOrEvent "Congresso di Storia della Corona d'Aragona" , "Congrès d'Histoire de la Couronne d'Aragon" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso de Historia de la Corona de Aragón" ;
+	gnd:definition "Ansetzung in span. Sprache nach § 481,1; gilt auch für d. Einzelkongresse nach § 485, 2. Absatz"@de ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/75-9> gnd:gndIdentifier "75-9" ;
+	gnd:oldAuthorityNumber "(DE-588b)75-9" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso de Historia de los Pueblos de la Provincia de Buenos Aires" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/77-2> gnd:gndIdentifier "77-2" ;
+	gnd:oldAuthorityNumber "(DE-588b)77-2" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso Iberoamericano de Municipios" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/78-4> gnd:gndIdentifier "78-4" ;
+	gnd:oldAuthorityNumber "(DE-588b)78-4" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso Iberoamericano de Seguridad Social" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/79-6> gnd:gndIdentifier "79-6" ;
+	gnd:oldAuthorityNumber "(DE-588b)79-6" ;
+	gnd:variantNameForTheConferenceOrEvent "Congresso Interamericano de Psicologia" , "Congreso Interamericano de Psicología" ;
+	gnd:preferredNameForTheConferenceOrEvent "Interamerican Congress of Psychology" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/80-2> gnd:gndIdentifier "80-2" ;
+	gnd:oldAuthorityNumber "(DE-588b)80-2" ;
+	gnd:variantNameForTheConferenceOrEvent "Internationaler Kongreß für Iberoamerikanische Literatur" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso Internacional de Literatura Iberoamericana" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/81-4> gnd:gndIdentifier "81-4" ;
+	gnd:oldAuthorityNumber "(DE-588b)81-4" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso Latinoamericano de Parasitología" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/82-6> gnd:gndIdentifier "82-6" ;
+	gnd:oldAuthorityNumber "(DE-588b)82-6" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso Medico-social Panamericano" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/83-8> gnd:gndIdentifier "83-8" ;
+	gnd:oldAuthorityNumber "(DE-588b)83-8" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso de Municipalidades del Ecuador" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/84-X> gnd:gndIdentifier "84-X" ;
+	gnd:oldAuthorityNumber "(DE-588b)84-X" ;
+	gnd:variantNameForTheConferenceOrEvent "Congreso Arqueológico Nacional" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso Nacional de Arqueología <Spanien>" ;
+	gnd:geographicAreaCode <http://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-ES> ;
+	gnd:placeOfConferenceOrEvent <http://d-nb.info/gnd/4055964-6> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/85-1> gnd:gndIdentifier "85-1" ;
+	gnd:oldAuthorityNumber "(DE-588b)85-1" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso Nacional de Estudiantes" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/86-3> gnd:gndIdentifier "86-3" ;
+	gnd:oldAuthorityNumber "(DE-588b)86-3" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso Nacional de Historia para el Estudio de la Guerra de Intervención <1, 1962, México>" ;
+	gnd:geographicAreaCode <http://d-nb.info/standards/vocab/gnd/geographic-area-code#XD-MX> ;
+	gnd:dateOfConferenceOrEvent "1962" ;
+	gnd:placeOfConferenceOrEvent <http://d-nb.info/gnd/2019865-6> ;
+	a gnd:ConferenceOrEvent .
+
+<http://d-nb.info/gnd/87-5> gnd:gndIdentifier "87-5" ;
+	gnd:oldAuthorityNumber "(DE-588b)87-5" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso Nacional de Historia del Perú" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/88-7> gnd:gndIdentifier "88-7" ;
+	gnd:oldAuthorityNumber "(DE-588b)88-7" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso Nacional de la Industria Siderúrgica" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/89-9> gnd:gndIdentifier "89-9" ;
+	gnd:oldAuthorityNumber "(DE-588b)89-9" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso Nacional de Pedagogía" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/90-5> gnd:gndIdentifier "90-5" ;
+	gnd:oldAuthorityNumber "(DE-588b)90-5" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso Nacional de Profesionales de Bolivia" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/91-7> gnd:gndIdentifier "91-7" ;
+	gnd:oldAuthorityNumber "(DE-588b)91-7" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso Nacional de Psicología" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/92-9> gnd:gndIdentifier "92-9" ;
+	gnd:oldAuthorityNumber "(DE-588b)92-9" ;
+	gnd:variantNameForTheConferenceOrEvent "Congress of the History of Medicine" , "Congreso Panamericano de Historia de Medicina" ;
+	gnd:preferredNameForTheConferenceOrEvent "Pan-American Congress of the History of Medicine" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/93-0> gnd:gndIdentifier "93-0" ;
+	gnd:oldAuthorityNumber "(DE-588b)93-0" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso Penal y Penitenciario Hispano-luso-americano y Filipino" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/94-2> gnd:gndIdentifier "94-2" ;
+	gnd:oldAuthorityNumber "(DE-588b)94-2" ;
+	gnd:variantNameForTheConferenceOrEvent "Congreso Penitenciario Justicialista Eva Perón" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso Penitenciario Justicialista" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/95-4> gnd:gndIdentifier "95-4" ;
+	gnd:oldAuthorityNumber "(DE-588b)95-4" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso de Poesía Puertorriqueña" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/96-6> gnd:gndIdentifier "96-6" ;
+	gnd:oldAuthorityNumber "(DE-588b)96-6" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso de Profesionales Universitarios Municipales" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/97-8> gnd:gndIdentifier "97-8" ;
+	gnd:oldAuthorityNumber "(DE-588b)97-8" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso Sudamericano de Zoología" ;
+	gnd:succeedingConferenceOrEvent <http://d-nb.info/gnd/66890-4> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/98-X> gnd:gndIdentifier "98-X" ;
+	gnd:oldAuthorityNumber "(DE-588b)98-X" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso Uruguayo de Pediatría" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/99-1> gnd:gndIdentifier "99-1" ;
+	gnd:oldAuthorityNumber "(DE-588b)99-1" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso Venezolano de Ciencias Médicas" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/100-4> gnd:gndIdentifier "100-4" ;
+	gnd:oldAuthorityNumber "(DE-588b)100-4" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès National de Spéléologie <Schweizerische Gesellschaft für Höhlenforschung>" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/101-6> gnd:gndIdentifier "101-6" ;
+	gnd:oldAuthorityNumber "(DE-588b)101-6" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso Venezolano de Cirugía" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/102-8> gnd:gndIdentifier "102-8" ;
+	gnd:oldAuthorityNumber "(DE-588b)102-8" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congreso Venezolano de Ingeniería" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/103-X> gnd:gndIdentifier "103-X" ;
+	gnd:oldAuthorityNumber "(DE-588b)103-X" ;
+	gnd:variantNameForTheConferenceOrEvent "Congrès des affaires canadiennes" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congress on Canadian Affairs" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/104-1> gnd:gndIdentifier "104-1" ;
+	gnd:oldAuthorityNumber "(DE-588b)104-1" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congress of Correction" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/105-3> gnd:gndIdentifier "105-3" ;
+	gnd:oldAuthorityNumber "(DE-588b)105-3" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congress on Information System Science and Technology" ;
+	gnd:precedingConferenceOrEvent <http://d-nb.info/gnd/106-5> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/106-5> gnd:gndIdentifier "106-5" ;
+	gnd:oldAuthorityNumber "(DE-588b)106-5" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congress on the Information System Sciences" ;
+	gnd:succeedingConferenceOrEvent <http://d-nb.info/gnd/105-3> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/108-9> gnd:gndIdentifier "108-9" ;
+	gnd:oldAuthorityNumber "(DE-588b)108-9" ;
+	gnd:variantNameForTheConferenceOrEvent "International Conference on Quantum Electronics <International Quantum Electronics Conference>" , "IQEC" ;
+	gnd:preferredNameForTheConferenceOrEvent "International Quantum Electronics Conference" ;
+	gnd:temporaryNameOfTheConferenceOrEvent <http://d-nb.info/gnd/623389-2> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/109-0> gnd:gndIdentifier "109-0" ;
+	gnd:oldAuthorityNumber "(DE-588b)109-0" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congress of Neuroendocrinology" ;
+	gnd:succeedingConferenceOrEvent <http://d-nb.info/gnd/6496-8> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/110-7> gnd:gndIdentifier "110-7" ;
+	gnd:oldAuthorityNumber "(DE-588b)110-7" ;
+	gnd:variantNameForTheCorporateBody "CNS" ;
+	gnd:preferredNameForTheCorporateBody "Congress of Neurological Surgeons" ;
+	gnd:geographicAreaCode <http://d-nb.info/standards/vocab/gnd/geographic-area-code#XD-US> ;
+	gnd:homepage <http://www.cns.org> ;
+	gnd:definition "Ansetzung für Kongressfolge und veranstaltende Körperschaft"@de ;
+	gnd:dateOfEstablishment "1951" ;
+	a gnd:CorporateBody .
+
+<http://d-nb.info/gnd/111-9> gnd:gndIdentifier "111-9" ;
+	gnd:oldAuthorityNumber "(DE-588b)111-9" ;
+	gnd:variantNameForTheConferenceOrEvent "Kongress über Verbrechensverhütung und Behandlung Straffälliger" , "Congrès sur la Prévention du Crime et le Traitement des Délinquants" , "Kongress über die Verhütung von Straftaten und über die Behandlung von Straffälligen" , "Congrès en Matière de Prévention du Crime et de Traitement des Délinquants" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congress on the Prevention of Crime and the Treatment of Offenders" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/113-2> gnd:gndIdentifier "113-2" ;
+	gnd:oldAuthorityNumber "(DE-588b)113-2" ;
+	gnd:variantNameForTheConferenceOrEvent "Scandinavian Congress of Mathematicians <Congress of Scandinavian Mathematicians>" , "Scandinavian Congress" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congress of Scandinavian Mathematicians" ;
+	gnd:precedingConferenceOrEvent <http://d-nb.info/gnd/64847-4> ;
+	gnd:succeedingConferenceOrEvent <http://d-nb.info/gnd/245421-X> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/114-4> gnd:gndIdentifier "114-4" ;
+	gnd:oldAuthorityNumber "(DE-588b)114-4" ;
+	gnd:variantNameForTheConferenceOrEvent "Nordiske Neurologkongres" , "Neurologkongres" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congress of Scandinavian Neurologists" ;
+	gnd:succeedingConferenceOrEvent <http://d-nb.info/gnd/74474-8> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/115-6> gnd:gndIdentifier "115-6" ;
+	gnd:oldAuthorityNumber "(DE-588b)115-6" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congress of Scandinavian Psychiatrists" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/116-8> gnd:gndIdentifier "116-8" ;
+	gnd:oldAuthorityNumber "(DE-588b)116-8" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congress on Science and Freedom" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/117-X> gnd:gndIdentifier "117-X" ;
+	gnd:oldAuthorityNumber "(DE-588b)117-X" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congress on Theoretical and Applied Mechanics" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/118-1> gnd:gndIdentifier "118-1" ;
+	gnd:oldAuthorityNumber "(DE-588b)118-1" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congress of the Universities of the Commonwealth" ;
+	gnd:precedingConferenceOrEvent <http://d-nb.info/gnd/235548-6> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/119-3> gnd:gndIdentifier "119-3" ;
+	gnd:oldAuthorityNumber "(DE-588b)119-3" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Açucareiro Nacional" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/120-X> gnd:gndIdentifier "120-X" ;
+	gnd:oldAuthorityNumber "(DE-588b)120-X" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Brasileiro de Ciência do Solo" ;
+	gnd:precedingConferenceOrEvent <http://d-nb.info/gnd/121-1> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/121-1> gnd:gndIdentifier "121-1" ;
+	gnd:oldAuthorityNumber "(DE-588b)121-1" ;
+	gnd:preferredNameForTheConferenceOrEvent "Reunião Brasileira de Ciência do Solo" ;
+	gnd:succeedingConferenceOrEvent <http://d-nb.info/gnd/120-X> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/122-3> gnd:gndIdentifier "122-3" ;
+	gnd:oldAuthorityNumber "(DE-588b)122-3" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Brasileiro de Crítica e História Literária" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/123-5> gnd:gndIdentifier "123-5" ;
+	gnd:oldAuthorityNumber "(DE-588b)123-5" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Brasileiro de Direito Social" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/124-7> gnd:gndIdentifier "124-7" ;
+	gnd:oldAuthorityNumber "(DE-588b)124-7" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Brasileiro de Educação" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/125-9> gnd:gndIdentifier "125-9" ;
+	gnd:oldAuthorityNumber "(DE-588b)125-9" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Brasileiro de Filosofia" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/126-0> gnd:gndIdentifier "126-0" ;
+	gnd:oldAuthorityNumber "(DE-588b)126-0" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Brasileiro de Geógrafos" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/127-2> gnd:gndIdentifier "127-2" ;
+	gnd:oldAuthorityNumber "(DE-588b)127-2" ;
+	gnd:variantNameForTheConferenceOrEvent "Brazilian Geological Congress" , "Congreso Brasileño de Geología" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Brasileiro de Geologia" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/128-4> gnd:gndIdentifier "128-4" ;
+	gnd:oldAuthorityNumber "(DE-588b)128-4" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso di Diritto Fluviale e della Navigazione Interna" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/129-6> gnd:gndIdentifier "129-6" ;
+	gnd:oldAuthorityNumber "(DE-588b)129-6" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso de Etnografia e Folclore" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/130-2> gnd:gndIdentifier "130-2" ;
+	gnd:oldAuthorityNumber "(DE-588b)130-2" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Europeo di Storia della Medicina" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/131-4> gnd:gndIdentifier "131-4" ;
+	gnd:oldAuthorityNumber "(DE-588b)131-4" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Europeo di Storia Ospitaliera" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/132-6> gnd:gndIdentifier "132-6" ;
+	gnd:oldAuthorityNumber "(DE-588b)132-6" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso del Folklore Modenese" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/133-8> gnd:gndIdentifier "133-8" ;
+	gnd:oldAuthorityNumber "(DE-588b)133-8" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso da História da Expansão Portuguesa no Mundo" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/134-X> gnd:gndIdentifier "134-X" ;
+	gnd:oldAuthorityNumber "(DE-588b)134-X" ;
+	gnd:variantNameForTheConferenceOrEvent "Congresso dos Economistas Portugueses" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso da Indústria Portuguesa" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/135-1> gnd:gndIdentifier "135-1" ;
+	gnd:oldAuthorityNumber "(DE-588b)135-1" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Internazionale di Fisica delle Nubi <1960, Verona>" ;
+	gnd:geographicAreaCode <http://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-IT> ;
+	gnd:dateOfConferenceOrEvent "1960" ;
+	gnd:placeOfConferenceOrEvent <http://d-nb.info/gnd/4063110-2> ;
+	a gnd:ConferenceOrEvent .
+
+<http://d-nb.info/gnd/136-3> gnd:gndIdentifier "136-3" ;
+	gnd:oldAuthorityNumber "(DE-588b)136-3" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Internazionale di Fitoiatria <1966, San Remo>" ;
+	gnd:geographicAreaCode <http://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-IT> ;
+	gnd:dateOfConferenceOrEvent "1966" ;
+	gnd:placeOfConferenceOrEvent <http://d-nb.info/gnd/4118347-2> ;
+	a gnd:ConferenceOrEvent .
+
+<http://d-nb.info/gnd/138-7> gnd:gndIdentifier "138-7" ;
+	gnd:oldAuthorityNumber "(DE-588b)138-7" ;
+	gnd:variantNameForTheConferenceOrEvent "Congresso Internazionale di Psicologia dello Sport" ;
+	gnd:preferredNameForTheConferenceOrEvent "International Congress of Sport Psychology" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/139-9> gnd:gndIdentifier "139-9" ;
+	gnd:oldAuthorityNumber "(DE-588b)139-9" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Internazionale delle Scuole di Cinema e Televisione" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/140-5> gnd:gndIdentifier "140-5" ;
+	gnd:oldAuthorityNumber "(DE-588b)140-5" ;
+	gnd:variantNameForTheConferenceOrEvent "Congresso Internazionale di Studi Altomedioevali" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Internazionale di Studi sull'Alto Medioevo" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/141-7> gnd:gndIdentifier "141-7" ;
+	gnd:oldAuthorityNumber "(DE-588b)141-7" ;
+	gnd:variantNameForTheConferenceOrEvent "Congresso Internazionale di Studi Nord-Africani" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congrès International d'Études Nord-Africaines" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/142-9> gnd:gndIdentifier "142-9" ;
+	gnd:oldAuthorityNumber "(DE-588b)142-9" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Internazionale di Studi Verdiani" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/144-2> gnd:gndIdentifier "144-2" ;
+	gnd:oldAuthorityNumber "(DE-588b)144-2" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Internazionale di Teologia Pastorale" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/145-4> gnd:gndIdentifier "145-4" ;
+	gnd:oldAuthorityNumber "(DE-588b)145-4" ;
+	gnd:variantNameForTheConferenceOrEvent "Congrès International des Transports à Câble" , "Congresso Internazionale dei Trasporti a Fune" , "International Congress of Transportation by Rope" , "Congreso Internacional de Transportes por Cable" ;
+	gnd:preferredNameForTheConferenceOrEvent "Internationaler Seilbahn-Kongreß" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/146-6> gnd:gndIdentifier "146-6" ;
+	gnd:oldAuthorityNumber "(DE-588b)146-6" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Italiano di Microscopia Elettronica" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/147-8> gnd:gndIdentifier "147-8" ;
+	gnd:oldAuthorityNumber "(DE-588b)147-8" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Italiano di Pediatria" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/148-X> gnd:gndIdentifier "148-X" ;
+	gnd:oldAuthorityNumber "(DE-588b)148-X" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Italiano di Storia Ospitaliera" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/149-1> gnd:gndIdentifier "149-1" ;
+	gnd:oldAuthorityNumber "(DE-588b)149-1" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Italiano dei Trasporti" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/150-8> gnd:gndIdentifier "150-8" ;
+	gnd:oldAuthorityNumber "(DE-588b)150-8" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso da Juventude Musical Brasileira" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/151-X> gnd:gndIdentifier "151-X" ;
+	gnd:oldAuthorityNumber "(DE-588b)151-X" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Ladino" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/152-1> gnd:gndIdentifier "152-1" ;
+	gnd:oldAuthorityNumber "(DE-588b)152-1" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Latinoamericano de Psiquiatria" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/154-5> gnd:gndIdentifier "154-5" ;
+	gnd:oldAuthorityNumber "(DE-588b)154-5" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Médico dos Radiologistas e Electrologistas de Cultura Latina" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/155-7> gnd:gndIdentifier "155-7" ;
+	gnd:oldAuthorityNumber "(DE-588b)155-7" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso das Misericordias" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/156-9> gnd:gndIdentifier "156-9" ;
+	gnd:oldAuthorityNumber "(DE-588b)156-9" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso do Mundo Português" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/157-0> gnd:gndIdentifier "157-0" ;
+	gnd:oldAuthorityNumber "(DE-588b)157-0" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Nacional de Arqueologia" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/158-2> gnd:gndIdentifier "158-2" ;
+	gnd:oldAuthorityNumber "(DE-588b)158-2" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Nacional de Botânica" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/159-4> gnd:gndIdentifier "159-4" ;
+	gnd:oldAuthorityNumber "(DE-588b)159-4" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Nacional de Educação" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/160-0> gnd:gndIdentifier "160-0" ;
+	gnd:oldAuthorityNumber "(DE-588b)160-0" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Nacional de Filosofia" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/161-2> gnd:gndIdentifier "161-2" ;
+	gnd:oldAuthorityNumber "(DE-588b)161-2" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Nacional de Saúde Mental" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/162-4> gnd:gndIdentifier "162-4" ;
+	gnd:oldAuthorityNumber "(DE-588b)162-4" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Nazionale di Dottrina dello Stato" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/163-6> gnd:gndIdentifier "163-6" ;
+	gnd:oldAuthorityNumber "(DE-588b)163-6" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Nazionale di Filosofia" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/164-8> gnd:gndIdentifier "164-8" ;
+	gnd:oldAuthorityNumber "(DE-588b)164-8" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Nazionale di Filosofia del Diritto" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/165-X> gnd:gndIdentifier "165-X" ;
+	gnd:oldAuthorityNumber "(DE-588b)165-X" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Nazionale del Freddo" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/166-1> gnd:gndIdentifier "166-1" ;
+	gnd:oldAuthorityNumber "(DE-588b)166-1" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Nazionale Mariano" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/167-3> gnd:gndIdentifier "167-3" ;
+	gnd:oldAuthorityNumber "(DE-588b)167-3" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Nazionale di Nipiologia" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/168-5> gnd:gndIdentifier "168-5" ;
+	gnd:oldAuthorityNumber "(DE-588b)168-5" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Nazionale di Pedagogia" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/169-7> gnd:gndIdentifier "169-7" ;
+	gnd:oldAuthorityNumber "(DE-588b)169-7" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Nazionale dei Pubblici Istituti di Credito su Pegno" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/170-3> gnd:gndIdentifier "170-3" ;
+	gnd:oldAuthorityNumber "(DE-588b)170-3" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Nazionale di Scienze Politiche e Sociali" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/171-5> gnd:gndIdentifier "171-5" ;
+	gnd:oldAuthorityNumber "(DE-588b)171-5" ;
+	gnd:variantNameForTheConferenceOrEvent "Congresso di Storia dell'Architettura" , "Convegno Nazionale di Storia dell'Architettura" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Nazionale di Storia dell'Architettura" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/172-7> gnd:gndIdentifier "172-7" ;
+	gnd:oldAuthorityNumber "(DE-588b)172-7" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Nazionale di Storia della Terapia" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/173-9> gnd:gndIdentifier "173-9" ;
+	gnd:oldAuthorityNumber "(DE-588b)173-9" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Nazionale di Studi Bizantini" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/174-0> gnd:gndIdentifier "174-0" ;
+	gnd:oldAuthorityNumber "(DE-588b)174-0" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Nazionale di Studi Danteschi" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/175-2> gnd:gndIdentifier "175-2" ;
+	gnd:oldAuthorityNumber "(DE-588b)175-2" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Nazionale di Studi Manzoniani" ;
+	gnd:temporaryNameOfTheConferenceOrEvent <http://d-nb.info/gnd/240043-1> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/176-4> gnd:gndIdentifier "176-4" ;
+	gnd:oldAuthorityNumber "(DE-588b)176-4" ;
+	gnd:variantNameForTheConferenceOrEvent "Symposio Nucleare" , "Congresso Internazionale per l'Energia Nucleare" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Nucleare" ;
+	gnd:precedingConferenceOrEvent <http://d-nb.info/gnd/130515-3> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/177-6> gnd:gndIdentifier "177-6" ;
+	gnd:oldAuthorityNumber "(DE-588b)177-6" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Piemontese di Antichità ed Arte" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/178-8> gnd:gndIdentifier "178-8" ;
+	gnd:oldAuthorityNumber "(DE-588b)178-8" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Português de Estomatologia" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/179-X> gnd:gndIdentifier "179-X" ;
+	gnd:oldAuthorityNumber "(DE-588b)179-X" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso degli Psicologi Italiani" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/180-6> gnd:gndIdentifier "180-6" ;
+	gnd:oldAuthorityNumber "(DE-588b)180-6" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Regionale Siciliano di Igiene Mentale" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/181-8> gnd:gndIdentifier "181-8" ;
+	gnd:oldAuthorityNumber "(DE-588b)181-8" ;
+	gnd:variantNameForTheConferenceOrEvent "Conference on Pollution <Banff, Alberta>" ;
+	gnd:preferredNameForTheConferenceOrEvent "Banff Conference on Pollution" ;
+	gnd:succeedingConferenceOrEvent <http://d-nb.info/gnd/243523-8> ;
+	gnd:geographicAreaCode <http://d-nb.info/standards/vocab/gnd/geographic-area-code#XD-CA> ;
+	gnd:placeOfConferenceOrEvent <http://d-nb.info/gnd/1028029-7> ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/182-X> gnd:gndIdentifier "182-X" ;
+	gnd:oldAuthorityNumber "(DE-588b)182-X" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso Storico Subalpino" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/183-1> gnd:gndIdentifier "183-1" ;
+	gnd:oldAuthorityNumber "(DE-588b)183-1" ;
+	gnd:variantNameForTheConferenceOrEvent "United Arab Republic Chemical Congress" ;
+	gnd:preferredNameForTheConferenceOrEvent "UAR Chemical Congress" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/184-3> gnd:gndIdentifier "184-3" ;
+	gnd:oldAuthorityNumber "(DE-588b)184-3" ;
+	gnd:variantNameForTheConferenceOrEvent "Congresso di Studi sull'Arte dell'Alto Medioevo" ;
+	gnd:preferredNameForTheConferenceOrEvent "Internationaler Kongreß für Frühmittelalterforschung" ;
+	a gnd:SeriesOfConferenceOrEvent .
+
+<http://d-nb.info/gnd/185-5> gnd:gndIdentifier "185-5" ;
+	gnd:oldAuthorityNumber "(DE-588b)185-5" ;
+	gnd:preferredNameForTheConferenceOrEvent "Congresso dei Trasporti Interni Industriali" ;
+	a gnd:SeriesOfConferenceOrEvent .
