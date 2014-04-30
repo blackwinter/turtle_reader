@@ -15,7 +15,7 @@ A convenience wrapper for reading RDF Turtle data.
 Documentation:: https://blackwinter.github.io/turtle_reader/
 Source code::   https://github.com/blackwinter/turtle_reader
 RubyGem::       https://rubygems.org/gems/turtle_reader
-Travis CI::     https//travis-ci.org/blackwinter/turtle_reader
+Travis CI::     https://travis-ci.org/blackwinter/turtle_reader
 
 
 == AUTHORS
