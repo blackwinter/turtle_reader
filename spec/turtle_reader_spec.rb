@@ -2,10 +2,10 @@ describe TurtleReader do
 
   context 'GND' do
 
-    let(:ttl) { data('GND-sample.ttl') }
+    let(:ttl) { 'GND-sample.ttl' }
 
     example do
-      prefixes = { nil => '' }
+      prefixes, sort = { nil => '' }, lambda { |ary| ary.sort_by { |k,| k.to_s } }
 
       prefixes.update(
         dc:       'http://purl.org/dc/elements/1.1/',
@@ -24,28 +24,37 @@ describe TurtleReader do
         skos:     'http://www.w3.org/2004/02/skos/core#'
       ) unless RUBY_PLATFORM == 'java'
 
-      TurtleReader.open(ttl) { |r| r.prefixes }.map { |k, v| [k, v.to_s]}
-      .sort_by { |k,| k.to_s }.should == prefixes.sort_by { |k,| k.to_s }
+      sort[turtle(ttl, &:prefixes).map { |k, v| [k, v.to_s] }].should == sort[prefixes]
     end
 
     example do
-      TurtleReader.open(ttl) { |r| r.statements.first.to_a }.map(&:to_s).should == %w[
-        http://d-nb.info/gnd/1-2 http://d-nb.info/standards/elementset/gnd#gndIdentifier 1-2
+      statements(ttl).first.to_a.map(&:to_s).should == %w[
+        http://d-nb.info/gnd/1-2
+        http://d-nb.info/standards/elementset/gnd#gndIdentifier
+        1-2
       ]
     end
 
     example do
-      TurtleReader.open(ttl) { |r| r.statements.size }.should == 838
+      statements(ttl).last.to_a.map(&:to_s).should == %w[
+        http://d-nb.info/gnd/185-5
+        http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+        http://d-nb.info/standards/elementset/gnd#SeriesOfConferenceOrEvent
+      ]
     end
 
     example do
-      TurtleReader.open(ttl + '.gz') { |r| r.statements.size }.should == 838
+      statements(ttl).size.should == 838
+    end
+
+    example do
+      statements(ttl + '.gz').size.should == 838
     end
 
     if Object.const_defined?(:RBzip2)
 
       example do
-        TurtleReader.open(ttl + '.bz2') { |r| r.statements.size }.should == 838
+        statements(ttl + '.bz2').size.should == 838
       end
 
     end

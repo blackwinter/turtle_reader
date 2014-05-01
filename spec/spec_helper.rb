@@ -9,5 +9,13 @@ RSpec.configure { |config|
     def data(file)
       File.join(File.dirname(__FILE__), 'data', file)
     end
+
+    def turtle(file, &block)
+      TurtleReader.open(data(file), &block)
+    end
+
+    def statements(file)
+      turtle(file, &:statements)
+    end
   })
 }
