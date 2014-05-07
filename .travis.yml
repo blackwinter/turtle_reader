@@ -23,4 +23,4 @@ script:
   rake spec
 
 install:
-  gem install --development turtle_reader
+  gem install --prerelease --development turtle_reader
