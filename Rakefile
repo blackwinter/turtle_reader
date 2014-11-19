@@ -1,4 +1,4 @@
-require File.expand_path(%q{../lib/turtle_reader/version}, __FILE__)
+require_relative 'lib/turtle_reader/version'
 
 begin
   require 'hen'
