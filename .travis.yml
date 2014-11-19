@@ -23,5 +23,5 @@ script:
   rake spec
 
 install:
-  - gem install nuggets
+  - gem install nuggets ebnf
   - gem install --prerelease --development turtle_reader
