@@ -22,7 +22,7 @@ describe TurtleReader do
         owl:      'http://www.w3.org/2002/07/owl#',
         rdf:      'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
         skos:     'http://www.w3.org/2004/02/skos/core#'
-      ) unless RUBY_PLATFORM == 'java'
+      ) unless RUBY_ENGINE == 'jruby'
 
       sort[turtle(ttl, &:prefixes).map { |k, v| [k, v.to_s] }].should == sort[prefixes]
     end

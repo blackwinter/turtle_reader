@@ -39,7 +39,7 @@ module RDF
 
       # NoMethodError: undefined method `[]' for nil:NilClass (line 17) [GND-sample.ttl]
       # from .../lib/ruby/gems/shared/gems/rdf-turtle-1.1.3.1/lib/rdf/turtle/reader.rb:153
-      progress:       RUBY_PLATFORM == 'java'
+      progress:       RUBY_ENGINE == 'jruby'
     }
 
     def closed?
