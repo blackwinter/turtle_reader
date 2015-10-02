@@ -5,7 +5,7 @@
 #                                                                             #
 # turtle_reader -- RDF Turtle reader                                          #
 #                                                                             #
-# Copyright (C) 2014 Jens Wille                                               #
+# Copyright (C) 2014-2015 Jens Wille                                          #
 #                                                                             #
 # Authors:                                                                    #
 #     Jens Wille <jens.wille@gmail.com>                                       #
@@ -85,13 +85,13 @@ class TurtleReader
   end
 
   def each_statement(&block)
-    return enum_for(:each_statement) unless block_given?
+    return enum_for(__method__) unless block_given?
     reader.parse_statements(&block)
     self
   end
 
   def each
-    return enum_for(:each) unless block_given?
+    return enum_for(__method__) unless block_given?
 
     uri, map, base = RDF::URI, self.map, self.base
 
