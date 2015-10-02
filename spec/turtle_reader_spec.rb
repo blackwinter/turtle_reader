@@ -47,13 +47,13 @@ describe TurtleReader do
       statements(ttl).size.should == 838
     end
 
-    example do
+    xexample do
       statements(ttl + '.gz').size.should == 838
     end
 
     if Object.const_defined?(:RBzip2)
 
-      example do
+      xexample do
         statements(ttl + '.bz2').size.should == 838
       end
 

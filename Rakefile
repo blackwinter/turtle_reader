@@ -13,7 +13,7 @@ begin
       email:        %q{jens.wille@gmail.com},
       license:      %q{AGPL-3.0},
       homepage:     :blackwinter,
-      dependencies: %w[rdf-turtle],
+      dependencies: { 'rdf-turtle' => ['~> 1.1', '<= 1.1.7'] },
 
       development_dependencies: %w[rbzip2],
 
