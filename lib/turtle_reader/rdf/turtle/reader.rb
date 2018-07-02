@@ -55,7 +55,7 @@ module RDF
     def parse_statements
       parse_internal { |context, _, *data|
         if context == :statement
-          data[3] = { context: data[3] }
+          data[3] = { graph_name: data[3] }
           yield Statement.new(*data)
         end
       }
